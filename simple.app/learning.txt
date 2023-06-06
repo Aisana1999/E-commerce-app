@@ -1,3 +1,7 @@
 Header
 =>Logo
 =>SignIn,Register buttons
+Register page
+Login page
+Home
+=>List of products (name,details,price,rating,image,add to cart buttons)
