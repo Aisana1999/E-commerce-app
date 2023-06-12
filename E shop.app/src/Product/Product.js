@@ -7,3 +7,7 @@ function Product(props) {
   //setStar(event.target.value);
   //}
 }
+return{
+
+  <div className="card-body"> </div>
+}
