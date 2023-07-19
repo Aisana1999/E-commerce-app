@@ -32,6 +32,8 @@ return (
           &nbsp;&nbsp;
           <span>{values.item.rating.count}</span>
         </p>
+        <p className="card-text">{values.item.description}</p>
+        <a href="#" className="btn btn-success flex-box" onClick={AddtoCart}></a>
   </div>
 );
 export default ProductCard;
