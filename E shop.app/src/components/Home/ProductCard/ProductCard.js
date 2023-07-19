@@ -1,6 +1,12 @@
 import "./ProductCard.css";
 
-function ProductCard(values) {}
+
+function ProductCard(values) {
+    const {dispatcherEvents} = useContext(AppContext);
+
+  function AddtoCart(){
+    dispatcherEvents("ADD_ITEM", values.item);
+}
 
 const key = values.item.id + "svg";
 
