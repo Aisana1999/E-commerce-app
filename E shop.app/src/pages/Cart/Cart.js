@@ -21,7 +21,7 @@ function Cart() {
 
       <div className="cart-container">
         {/* 2. Print updated total price */}
-
+        <h4 className="totalPrice">Total Price: {totalPrice}</h4>
         <div>
           {cartItems.map((item, index) => (
             <CartItem
