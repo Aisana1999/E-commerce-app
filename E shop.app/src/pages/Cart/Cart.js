@@ -1,5 +1,7 @@
 import "./Cart.css";
 
-function Cart() {}
+function Cart() {
+  const [cartItems, setcartItem] = useState([]);
+}
 
 export default Cart;
