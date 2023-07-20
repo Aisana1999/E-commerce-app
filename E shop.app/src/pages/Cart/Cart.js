@@ -12,6 +12,17 @@ function Cart() {
         setcartItem(res);
       });
   }, []);
+
+  return (
+    <div>
+      <div className="cart-header">
+        <Header />
+      </div>
+
+      
+
+
+
 }
 
 export default Cart;
