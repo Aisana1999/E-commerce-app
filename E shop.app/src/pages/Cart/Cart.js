@@ -19,10 +19,23 @@ function Cart() {
         <Header />
       </div>
 
-      
+      <div className="cart-container">
+        {/* 2. Print updated total price */}
 
+        <div>
+          {cartItems.map((item, index) => (
+            <CartItem
+              // 4. Pass function as props.
 
-
+              key={index}
+              item={item}
+              index={index}
+            />
+          ))}
+        </div>
+      </div>
+    </div>
+  );
 }
 
 export default Cart;
